@@ -1,0 +1,66 @@
+*{
+    background-color: rgb(20, 20, 20);
+}
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+}
+.button{
+    
+    top: 32%;
+    position: absolute;
+    left: 5%;
+    border: 1px solid rgb(70, 70, 70);
+   background: none;
+    color: rgb(175, 175, 175);
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.img{
+    width: 340px;
+    position: absolute;
+    left: 65%;
+}
+h3{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-weight: 400;
+}
+h5{
+    color: rgb(94, 94, 94);
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    position: absolute;
+    top: 25%;
+}
+.Contact{
+    
+    font-weight: 400;
+    top: 43%;
+    position: absolute;
+    left: 5%;
+    border: 1px solid rgb(70, 70, 70);
+   background: none;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 17.6px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    border-radius: 6px;
+}
+.Contact:hover{
+    border-radius: 13px;
+    color: white;
+    background-color: #556c9a;
+    transition: 0.5s ease-in-out;
+}
